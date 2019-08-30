@@ -1,5 +1,5 @@
 .jumbotron {
-    background-image: url("../images/malachite.jpg");
+    background-image: url("../images/blue.jpn.jpg");
     background-size: cover;
   
   }
@@ -7,14 +7,23 @@
   .jumbotron h1 {
     color: #000;
     text-shadow: 3px 3px #fff;
-  
+   
   }
   
   .instructions {
     text-align: center; 
   }
 
-  .container-fluid {
-      background-image: url("../images/blue.jpn.jpg");
-
+  p {
+      line-height: 1.0em;
+      text-shadow: .2px .2px #898af0;
   }
+
+  h2 {
+    text-shadow: .5px .5px #8688e9;
+  }
+
+  /* .container-fluid {
+      background-image: url("../images/chalcanthite.jpg");
+
+  } */

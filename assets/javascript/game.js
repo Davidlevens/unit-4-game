@@ -72,7 +72,7 @@ $( document ).ready(function(){
             loser();
           } 
     })  
-    $('.yellow').on ('click', function(){
+    $('.orange').on ('click', function(){
       playerTotal = playerTotal + num3;
       console.log("New playerTotal= " + playerTotal);
       $('#totalScore').text(playerTotal);
@@ -84,7 +84,7 @@ $( document ).ready(function(){
             loser();
           } 
     })  
-    $('.green').on ('click', function(){
+    $('.purple').on ('click', function(){
       playerTotal = playerTotal + num4;
       console.log("New playerTotal= " + playerTotal);
       $('#totalScore').text(playerTotal); 
